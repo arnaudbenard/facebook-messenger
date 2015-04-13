@@ -5,23 +5,27 @@
   color: #4F8EF7;
 }
 
+.tab-item.active {
+  color: #4F8EF7;
+}
+
 .content {
-  padding-top: 44px;
+  padding-top: 43px;
 }
 
 .avatar {
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin-top: 1em;
-    margin-right: 1em;
-    position: relative;
+  height: 50px;
+  width: 50px!important;
+  float: left;
+  margin-top: 1em;
+  margin-right: 1em;
+  position: relative;
 
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 
-    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
-    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
-    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
 }

@@ -38,6 +38,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+* `ember cordova:build --environment=production --platform=ios`
 
 ### Deploying
 
@@ -51,11 +52,5 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-
-ember install ember-ionic
-ember install liquid-fire
-npm install --save-dev ember-cli-cordova
-ember generate cordova-init com.demo.fbmessenger
-ember cordova:build
 
 
