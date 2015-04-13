@@ -1,3 +1,7 @@
-<h2 id="title">Welcome to Ember.js</h2>
+{{#nav-bar title="Messenger"}}
+  {{btn-compose action="newMessage"}}
+{{/nav-bar}}
 
-{{outlet}}
+{{liquid-outlet class="content"}}
+
+{{tab-bar}}

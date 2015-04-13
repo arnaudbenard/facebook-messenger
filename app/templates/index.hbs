@@ -1,0 +1,9 @@
+<ul class="list">
+  {{#each person in model}}
+  <li class="item">
+    <img class="avatar" src={{person.avatar}}>
+    {{person.first_name}}
+    {{person.last_name}}
+  </li>
+  {{/each}}
+</ul>

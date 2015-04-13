@@ -6,4 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 export default Router.map(function() {
+  this.route('groups');
+  this.route('people');
+  this.route('settings');
+  this.route('loading');
 });
