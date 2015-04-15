@@ -38,8 +38,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-* `ember cordova:build --environment=production --platform=ios`
-* `ember nw`
+* `ember cordova:build --environment=production --platform=ios` (cordova app)
+* `ember nw` (nw.js app)
+
 ### Deploying
 
 Specify what it takes to deploy your app.
