@@ -1,7 +1,8 @@
 # Facebook-messenger
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Demo for the Front Endgineers London talk on ember-cli.
+
+* Slides: https://speakerdeck.com/arnaudbenard/building-mobile-applications-with-ember
 
 ## Prerequisites
 
